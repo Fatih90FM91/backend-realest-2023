@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-_qv)r@@hma&-&kximc_%oefz*mr*vx2t97(0osdkoqlo-orzz3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -88,10 +88,11 @@ WSGI_APPLICATION = 'realest_estate.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'realest_estate',
-        'USER': 'postgres',
-        'PASSWORD': '19900203',
-        'HOST': 'localhost'
+        'NAME': 'defaultdb',
+        'USER': 'avnadmin',
+        'PASSWORD': 'AVNS_qY7XdkhlTAK4gufDMGg',
+        'PORT': '20976',
+        'HOST': 'pg-460d71d-amazing-projects.aivencloud.com'
     }
 }
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
