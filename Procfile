@@ -1,1 +1,1 @@
-web:gunicorn realest_estate.wsgi
+web: gunicorn realest_estate.wsgi
