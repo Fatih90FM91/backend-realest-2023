@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-_qv)r@@hma&-&kximc_%oefz*mr*vx2t97(0osdkoqlo-orzz3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'https://backend-realestate-2023-5caa7ebcd402.herokuapp.com/']
 
 
 # Application definition
